@@ -11,6 +11,6 @@
     "href": "index.html",
     "title": "stats140_website",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\ntest\n\nrunif(5)\n\n[1] 0.9262879 0.5798627 0.9181094 0.2189507 0.7514536"
   }
 ]
