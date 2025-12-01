@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Research and Projects"
 ---
 
 About this site

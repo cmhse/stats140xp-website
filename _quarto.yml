@@ -2,11 +2,13 @@ project:
   type: website
 
 website:
-  title: "stats140_website"
+  title: "Charlie Hoose"
   navbar:
     left:
       - href: index.qmd
-      - about.qmd
+        text: About
+      - href: about.qmd
+        text: Research/Projects
 
 format:
   html:
