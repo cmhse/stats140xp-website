@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -103,6 +68,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -143,8 +137,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#research" id="toc-research" class="nav-link active" data-scroll-target="#research">Research</a></li>
+  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -168,15 +169,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>About this site</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<section id="research" class="level1">
+<h1>Research</h1>
+<p>In my time at UCLA, I was able to work in the B John Garrick Institute for Risk Sciences as a Research Intern. I contributed to an app, WISE (<strong>WI</strong>ldfire <strong>S</strong>afe <strong>E</strong>gress), which focused on optimizing and predicting the evacuation of a community/area given a wildfire situation. By using Bayesian Statistics, WISE uses data on population demographics, densities, and road network capacities, bottlenecks, etc. to predict how long or how many people will be able to evacuate for a wildfire in a given time. It can be used by city planners to rethink how they build new roads or where to allocate funds for rebuilding, or by situation unit leaders on wildfire teams to optimize getting civilians to safety.</p>
+<p>You can read more about WISE <a href="https://www.risksciences.ucla.edu/crse-software-blog/2023/11/13/wise">here</a>.</p>
+</section>
+<section id="projects" class="level1">
+<h1>Projects</h1>
+<p>I have also worked on various projects while in tenure at UCLA. Through my membership in the Data Science Union at UCLA, I have been a part of various different internal projects with other data-oriented students. A few of these are showcased below:</p>
+<p><span class="math display">\[ \]</span></p>
+<p>One particularly fun project, <strong>Syncadia</strong>, attempts to solve an age-old problem: “which song do I use in my Instagram story to best fit the picture’s vibe?” By extracting the sentiment of an uploaded image and comparing it to a vast library of songs, you can find the song that has the most similarity in vibe to that of the image. By applying sentiment analysis to both the library of songs and the image, we can calculate the mapped distance of the image’s emotion to that of all the songs and return the closest one. With this, the next time that you want to post on Instagram, you know that the song you want to accompany your post will be exactly the mood of the image.</p>
+<p>The GitHub repo can be found <a href="https://github.com/isblender/Syncadia/tree/main">here</a>.</p>
+<p><span class="math display">\[ \]</span></p>
+<p>Another interesting project I’ve worked on in DSU is a chatbot that is able to answer most questions about our organization. By parsing through our club’s website, curriculum teaching videos, and internal documents, you are able to ask it various prompts relating to the club with a correct answer coming back at you. In this project, I learned a lot about Retrieval Augmented Generation, or RAG, and engineered a retrieval pipeline with LangChain to convert our website into vector embeddings that can be ranked in similarity to a query. With this, combined with an LLM to contextualize answers, we were able to create a working app that can answer questions like “Whose birthday is next in the club?”, “What are the main components of DSU?”, “How do I stand out in the application process?”, and much more.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

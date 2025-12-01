@@ -22,5 +22,5 @@ At UCLA, you can find me checking out exciting restaurants, trying to recreate t
 
 Professionally, I have experience with Data Science, Data Analytics, and Machine Learning. I am particularly interested in data modeling and trying to make predictions from initially-messy or convoluted data sources.
 
-You can view my resume [here](/CharlieHooseResume.pdf)
+You can view my resume [here](/CharlieHooseResume.pdf).
 
