@@ -1,1 +1,161 @@
-/* css styles */
+/* =============================================
+   Charlie Hoose — Personal Site
+   Dark / Tech aesthetic
+   ============================================= */
+
+/* --- Base & Background --- */
+body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+/* --- Navbar --- */
+.navbar {
+  border-bottom: 1px solid #21262d;
+  padding: 0.75rem 1.5rem;
+  letter-spacing: 0.03em;
+}
+
+.navbar-brand {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #e6edf3 !important;
+  letter-spacing: 0.05em;
+}
+
+.navbar-nav .nav-link {
+  color: #8b949e !important;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #58a6ff !important;
+}
+
+/* --- Headings --- */
+h1, h2, h3, h4 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600;
+  color: #e6edf3;
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+h2 {
+  font-size: 1.1rem;
+  color: #58a6ff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #21262d;
+}
+
+/* --- Links --- */
+a {
+  color: #58a6ff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #79b8ff;
+  text-decoration: underline;
+}
+
+/* --- About / Trestles layout --- */
+.quarto-about-trestles {
+  gap: 3rem;
+}
+
+/* Sidebar column */
+.quarto-about-trestles .about-entity {
+  border-right: 1px solid #21262d;
+  padding-right: 2rem;
+}
+
+/* Headshot */
+.quarto-about-trestles img.about-image {
+  border-radius: 8px;
+  border: 1px solid #21262d;
+  filter: grayscale(15%);
+  transition: filter 0.3s ease;
+}
+.quarto-about-trestles img.about-image:hover {
+  filter: grayscale(0%);
+}
+
+/* Social/link buttons */
+.about-links .about-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #c9d1d9 !important;
+  font-size: 0.85rem;
+  font-family: 'IBM Plex Mono', monospace;
+  background: #161b22;
+  transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
+  text-decoration: none !important;
+  margin: 0.25rem 0.25rem 0.25rem 0;
+}
+.about-links .about-link:hover {
+  border-color: #58a6ff;
+  color: #58a6ff !important;
+  background: #0d1117;
+}
+
+/* --- Research / Projects page --- */
+/* Section headings already handled by h2 above */
+
+/* Project blocks — wrap each $$ $$ section in a card-like container */
+p {
+  margin-bottom: 1.2rem;
+}
+
+/* Inline code */
+code {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.88em;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+  color: #79b8ff;
+}
+
+/* --- Footer --- */
+.nav-footer {
+  border-top: 1px solid #21262d;
+  color: #484f58;
+  font-size: 0.8rem;
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 1rem 0;
+}
+
+/* --- Subtle page fade-in --- */
+main {
+  animation: fadeUp 0.4s ease both;
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Scrollbar (webkit) --- */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0d1117; }
+::-webkit-scrollbar-thumb { background: #30363d; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #484f58; }

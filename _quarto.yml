@@ -4,19 +4,22 @@ project:
 website:
   title: "Charlie Hoose"
   navbar:
+    background: "#0d1117"
+    foreground: "#c9d1d9"
     left:
       - href: index.qmd
         text: About
       - href: about.qmd
-        text: Research/Projects
+        text: Research & Projects
+  page-footer:
+    background: "#0d1117"
+    center: "© 2025 Charlie Hoose"
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - darkly
+      - custom.scss
     css: styles.css
-    toc: true
-
-
-
+    toc: false
+    smooth-scroll: true
