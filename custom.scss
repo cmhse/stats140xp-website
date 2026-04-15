@@ -1,9 +1,5 @@
-/*-- custom.scss --*/
+/*-- scss:defaults --*/
 
-/*-- Google Fonts --*/
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
-
-/*-- Sass Variables (Quarto reads these) --*/
 $font-family-sans-serif: 'IBM Plex Sans', sans-serif;
 $font-family-monospace: 'IBM Plex Mono', monospace;
 $body-bg: #0d1117;
@@ -13,3 +9,7 @@ $link-hover-color: #79b8ff;
 $headings-color: #e6edf3;
 $navbar-bg: #0d1117;
 $navbar-fg: #c9d1d9;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
