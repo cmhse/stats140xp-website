@@ -88,11 +88,6 @@ a:hover {
 .quarto-about-trestles img.about-image {
   border-radius: 8px;
   border: 1px solid #21262d;
-  filter: grayscale(15%);
-  transition: filter 0.3s ease;
-}
-.quarto-about-trestles img.about-image:hover {
-  filter: grayscale(0%);
 }
 
 /* Social/link buttons */
@@ -159,3 +154,17 @@ main {
 ::-webkit-scrollbar-track { background: #0d1117; }
 ::-webkit-scrollbar-thumb { background: #30363d; border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: #484f58; }
+
+
+/* --- Trestles column width fix --- */
+div.quarto-about-trestles div.about-entity {
+  flex: 0 0 200px !important;
+  max-width: 200px !important;
+  min-width: 200px !important;
+  width: 200px !important;
+}
+
+div.quarto-about-trestles div.about-contents {
+  flex: 1 1 0 !important;
+  min-width: 0 !important;
+}
