@@ -11,7 +11,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "I have also worked on various projects while in tenure at UCLA. Through my membership in the Data Science Union at UCLA, I have been a part of various different internal projects with other data-oriented students. A few of these are showcased below:\n\\[ \\]"
+    "text": "I have worked on various projects while in tenure at UCLA. Through my membership in the Data Science Union at UCLA, I have been a part of various different internal projects with other data-oriented students. A few of these are showcased below:\n\\[ \\]"
   },
   {
     "objectID": "index.html",
@@ -72,6 +72,34 @@
   {
     "objectID": "about.html#wise",
     "href": "about.html#wise",
+    "title": "Work and Research Experience",
+    "section": "WISE",
+    "text": "WISE\nIn my time at UCLA, I was able to work in the B John Garrick Institute for Risk Sciences as a Research Intern. I was an intern from April 2024 to July 2025. I contributed to an app, WISE (WIldfire Safe Egress), which focused on optimizing and predicting the evacuation of a community/area given a wildfire situation. By using Bayesian Statistics, WISE uses data on population demographics, densities, and road network capacities, bottlenecks, etc. to predict how long or how many people will be able to evacuate for a wildfire in a given time. It can be used by city planners to rethink how they build new roads or where to allocate funds for rebuilding, or by situation unit leaders on wildfire teams to optimize getting civilians to safety.\nWithin the team, I used my data science knowledge to do various case studies on wildfires in the past, presenting data and plots of historic trends. I also created many analyses of different, rival software and novel programs in order to better our application. Most notably, I created a RAG process that would extract keywords from research papers relating to wildfire and evacuation to identify different variables and their importance. This was used to improve the evacuation model used to decide when people leave in the application, strengthening the app’s usability and accuracy. It was also able to significantly speed up the synthesis of research papers by another coworker, who was improving the evacuation model and needed a way to identify which factors most influence a person’s evacuation speed, roadblocks, etc.\nThis work once again reinforces my desire to bring more good to humanity through data science. By using my knowledge to improve a wildfire evacuation app, I know that I am contributing to a better society and could potentially help save lives. I truly believe that it is our responsibility to uplift and improve the lives of others, so being apart of this research is very important to me.\nYou can read more about WISE here."
+  },
+  {
+    "objectID": "research_work.html",
+    "href": "research_work.html",
+    "title": "Work and Research Experience",
+    "section": "",
+    "text": "community reinvestment and data reporting\n\n\n\nmodeling"
+  },
+  {
+    "objectID": "research_work.html#first-citizens-bank",
+    "href": "research_work.html#first-citizens-bank",
+    "title": "Work and Research Experience",
+    "section": "",
+    "text": "community reinvestment and data reporting"
+  },
+  {
+    "objectID": "research_work.html#italian-national-baseball-team-world-baseball-classic",
+    "href": "research_work.html#italian-national-baseball-team-world-baseball-classic",
+    "title": "Work and Research Experience",
+    "section": "",
+    "text": "modeling"
+  },
+  {
+    "objectID": "research_work.html#wise",
+    "href": "research_work.html#wise",
     "title": "Work and Research Experience",
     "section": "WISE",
     "text": "WISE\nIn my time at UCLA, I was able to work in the B John Garrick Institute for Risk Sciences as a Research Intern. I was an intern from April 2024 to July 2025. I contributed to an app, WISE (WIldfire Safe Egress), which focused on optimizing and predicting the evacuation of a community/area given a wildfire situation. By using Bayesian Statistics, WISE uses data on population demographics, densities, and road network capacities, bottlenecks, etc. to predict how long or how many people will be able to evacuate for a wildfire in a given time. It can be used by city planners to rethink how they build new roads or where to allocate funds for rebuilding, or by situation unit leaders on wildfire teams to optimize getting civilians to safety.\nWithin the team, I used my data science knowledge to do various case studies on wildfires in the past, presenting data and plots of historic trends. I also created many analyses of different, rival software and novel programs in order to better our application. Most notably, I created a RAG process that would extract keywords from research papers relating to wildfire and evacuation to identify different variables and their importance. This was used to improve the evacuation model used to decide when people leave in the application, strengthening the app’s usability and accuracy. It was also able to significantly speed up the synthesis of research papers by another coworker, who was improving the evacuation model and needed a way to identify which factors most influence a person’s evacuation speed, roadblocks, etc.\nThis work once again reinforces my desire to bring more good to humanity through data science. By using my knowledge to improve a wildfire evacuation app, I know that I am contributing to a better society and could potentially help save lives. I truly believe that it is our responsibility to uplift and improve the lives of others, so being apart of this research is very important to me.\nYou can read more about WISE here."

@@ -1,0 +1,27 @@
+---
+title: "Work and Research Experience"
+---
+
+# Work Experience
+
+## First Citizens Bank
+
+community reinvestment and data reporting
+
+## Italian National Baseball Team (World Baseball Classic)
+
+modeling
+
+# Research
+
+## WISE
+
+In my time at UCLA, I was able to work in the B John Garrick Institute for Risk Sciences as a Research Intern. I was an intern from April 2024 to July 2025. I contributed to an app, WISE (**WI**ldfire **S**afe **E**gress), which focused on optimizing and predicting the evacuation of a community/area given a wildfire situation. By using Bayesian Statistics, WISE uses data on population demographics, densities, and road network capacities, bottlenecks, etc. to predict how long or how many people will be able to evacuate for a wildfire in a given time. It can be used by city planners to rethink how they build new roads or where to allocate funds for rebuilding, or by situation unit leaders on wildfire teams to optimize getting civilians to safety.
+
+Within the team, I used my data science knowledge to do various case studies on wildfires in the past, presenting data and plots of historic trends. I also created many analyses of different, rival software and novel programs in order to better our application. Most notably, I created a RAG process that would extract keywords from research papers relating to wildfire and evacuation to identify different variables and their importance. This was used to improve the evacuation model used to decide when people leave in the application, strengthening the app's usability and accuracy. It was also able to significantly speed up the synthesis of research papers by another coworker, who was improving the evacuation model and needed a way to identify which factors most influence a person's evacuation speed, roadblocks, etc.
+
+This work once again reinforces my desire to bring more good to humanity through data science. By using my knowledge to improve a wildfire evacuation app, I know that I am contributing to a better society and could potentially help save lives. I truly believe that it is our responsibility to uplift and improve the lives of others, so being apart of this research is very important to me.
+
+You can read more about WISE [here](https://www.risksciences.ucla.edu/crse-software-blog/2023/11/13/wise).
+
+
