@@ -2,9 +2,16 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Research and Projects",
+    "title": "Work and Research Experience",
     "section": "",
-    "text": "Research\nIn my time at UCLA, I was able to work in the B John Garrick Institute for Risk Sciences as a Research Intern. I contributed to an app, WISE (WIldfire Safe Egress), which focused on optimizing and predicting the evacuation of a community/area given a wildfire situation. By using Bayesian Statistics, WISE uses data on population demographics, densities, and road network capacities, bottlenecks, etc. to predict how long or how many people will be able to evacuate for a wildfire in a given time. It can be used by city planners to rethink how they build new roads or where to allocate funds for rebuilding, or by situation unit leaders on wildfire teams to optimize getting civilians to safety.\nYou can read more about WISE here.\n\n\nProjects\nI have also worked on various projects while in tenure at UCLA. Through my membership in the Data Science Union at UCLA, I have been a part of various different internal projects with other data-oriented students. A few of these are showcased below:\n\\[ \\]\nOne particularly fun project, Syncadia, attempts to solve an age-old problem: “which song do I use in my Instagram story to best fit the picture’s vibe?” By extracting the sentiment of an uploaded image and comparing it to a vast library of songs, you can find the song that has the most similarity in vibe to that of the image. By applying sentiment analysis to both the library of songs and the image, we can calculate the mapped distance of the image’s emotion to that of all the songs and return the closest one. With this, the next time that you want to post on Instagram, you know that the song you want to accompany your post will be exactly the mood of the image.\nThe GitHub repo can be found here.\n\\[ \\]\nAnother interesting project I’ve worked on in DSU is a chatbot that is able to answer most questions about our organization. By parsing through our club’s website, curriculum teaching videos, and internal documents, you are able to ask it various prompts relating to the club with a correct answer coming back at you. In this project, I learned a lot about Retrieval Augmented Generation, or RAG, and engineered a retrieval pipeline with LangChain to convert our website into vector embeddings that can be ranked in similarity to a query. With this, combined with an LLM to contextualize answers, we were able to create a working app that can answer questions like “Whose birthday is next in the club?”, “What are the main components of DSU?”, “How do I stand out in the application process?”, and much more."
+    "text": "community reinvestment and data reporting\n\n\n\nmodeling"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "I have also worked on various projects while in tenure at UCLA. Through my membership in the Data Science Union at UCLA, I have been a part of various different internal projects with other data-oriented students. A few of these are showcased below:\n\\[ \\]"
   },
   {
     "objectID": "index.html",
@@ -19,5 +26,54 @@
     "title": "Charlie Hoose",
     "section": "",
     "text": "Hello! My name is Charlie Hoose and I am a fourth year Statistics and Data Science major with a Data Science Engineering minor at UCLA. I am from the Santa Ynez Valley in California (right above Santa Barbara) and have grown up there all my life.\nIn my free time, I enjoy playing racket sports like tennis, pickleball, and ping pong, as well as working out and going on hikes in nature. I am a big fan of music of most genres, and often go to concerts and add to my vinyl collection. Moreover, I am a big foodie, and you can find me checking out new or interesting restaurants across LA. What I eat I try to recreate in the kitchen, too, as I have a passion for cooking which stemmed from experiences with my father and working in a professional kitchen in high school. If any of these hobbies or interests are up your alley, feel free to reach out!\nProfessionally, I have experience with Data Science, Data Analytics, Business Analytics, and Machine Learning. I am particularly interested in data modeling and trying to make sense of the world around me. Even more, I find passion in using data science to try to make the world a better place, which led me to certain projects and experiences with the main goal of improving the quality of human life. Whether it be via wildfire prediction and evacuation or community reinvestment, I find it important to use my skills to benefit the broader public.\nYou can view my resume here."
+  },
+  {
+    "objectID": "projects.html#wildfire-spread-prediction",
+    "href": "projects.html#wildfire-spread-prediction",
+    "title": "Projects",
+    "section": "Wildfire Spread Prediction",
+    "text": "Wildfire Spread Prediction\nMy personal favorite project has been my Wildfire Spread Prediction project. My dad has worked in the fire service for my entire life as a fire captain, chief, and situation unit leader on major wildfires. He has traveled to over 10 states to fight some of the largest fires in US history, some as close as 15 minutes from my house (Thomas Fire of 2017). I am incredibly inspired by his call to action and impact he has made on countless lives, and although I am nowhere near a firefighter, I wanted to use my data science knowledge to cross into his domain. I got into contact with some of his coworkers, including a GIS engineer on his national team, where I was able to discuss my project and ask for any advice. Through meeting with him, I sourced a national wildfire IRWIN dataset that he uses on incidents, and created a linear model to predict the final size of a wildfire. Given conditions such as brush size, temperature, humidity, size of fire in discovery, fire behavior, fuel models, fire cause, and wind, I created a model with a MSE of 2.8 and correlation coefficient of 0.48. Although the correlation is not as high as I wanted at the time, I had issues with the data including over 60% of the values being NA and not having as much knowledge of data science at the time. I plan on revisiting this project and seeing if I can improve the model, knowing what I do now about machine learning.\nOverall, this project was extremely important to me because it represents my innate desire to improve the quality of life around me. I am inspired to make the world a better place, and although I cannot do that physically like a firefighter, I love using my statistical knowledge to create potentially useful tools for good. Beyond that, this project was a great bonding experience with my dad, as we both got to geek out about wildfires and maps.\n\\[ \\]"
+  },
+  {
+    "objectID": "projects.html#syncadia",
+    "href": "projects.html#syncadia",
+    "title": "Projects",
+    "section": "Syncadia",
+    "text": "Syncadia\nOne particularly fun project, Syncadia, attempts to solve an age-old problem: “which song do I use in my Instagram story to best fit the picture’s vibe?” By extracting the sentiment of an uploaded image and comparing it to a vast library of songs, you can find the song that has the most similarity in vibe to that of the image. By applying sentiment analysis to both the library of songs and the image, we can calculate the mapped distance of the image’s emotion to that of all the songs and return the closest one. With this, the next time that you want to post on Instagram, you know that the song you want to accompany your post will be exactly the mood of the image.\nThe GitHub repo can be found here.\n\\[ \\]"
+  },
+  {
+    "objectID": "projects.html#dsu-chatbot",
+    "href": "projects.html#dsu-chatbot",
+    "title": "Projects",
+    "section": "DSU Chatbot",
+    "text": "DSU Chatbot\nAnother interesting project I’ve worked on in DSU is a chatbot that is able to answer most questions about our organization. By parsing through our club’s website, curriculum teaching videos, and internal documents, you are able to ask it various prompts relating to the club with a correct answer coming back at you. In this project, I learned a lot about Retrieval Augmented Generation, or RAG, and engineered a retrieval pipeline with LangChain to convert our website into vector embeddings that can be ranked in similarity to a query. With this, combined with an LLM to contextualize answers, we were able to create a working app that can answer questions like “Whose birthday is next in the club?”, “What are the main components of DSU?”, “How do I stand out in the application process?”, and much more. I presented this in front of 70+ people at a project showcase for the club, where I was able to demo the Streamlit site for the chatbot and ask the audience questions they had about the club.\n\\[ \\]"
+  },
+  {
+    "objectID": "projects.html#resume-ats",
+    "href": "projects.html#resume-ats",
+    "title": "Projects",
+    "section": "Resume ATS",
+    "text": "Resume ATS\nContinuing, a project I found very fun to do with DSU was a custom Resume ATS screener. With this, we took a huge “stack” of resumes in .pdf form and created an ATS to automatically accept/reject resumes. My contribution to the project revolved around creating different metrics and features to gauge an applicant’s qualifications. I extracted the total tenure of all work experiences and created fields to judge an applicant based off of their amount of experience in different fields. I also conducted data analysis on the distribution of work tenure to identify patterns within the numbers. This feature was combined with others from my teammates, including a marker for university ranking, NLP sentiment analysis of keywords and job titles, and more. From this, we were able to create a KNN model to group high-achieving resumes together and accept the best resumes while rejecting the worst. We presented this in front of 50+ people and provided a demo where, unfortunately, my teammate’s resume did not pass the scan.\n\\[ \\]\nAlthough I have done various other data-driven projects in the past, these are some of the most interesting or personally-relevant projects to me that I want to share."
+  },
+  {
+    "objectID": "about.html#first-citizens-bank",
+    "href": "about.html#first-citizens-bank",
+    "title": "Work and Research Experience",
+    "section": "",
+    "text": "community reinvestment and data reporting"
+  },
+  {
+    "objectID": "about.html#italian-national-baseball-team-world-baseball-classic",
+    "href": "about.html#italian-national-baseball-team-world-baseball-classic",
+    "title": "Work and Research Experience",
+    "section": "",
+    "text": "modeling"
+  },
+  {
+    "objectID": "about.html#wise",
+    "href": "about.html#wise",
+    "title": "Work and Research Experience",
+    "section": "WISE",
+    "text": "WISE\nIn my time at UCLA, I was able to work in the B John Garrick Institute for Risk Sciences as a Research Intern. I was an intern from April 2024 to July 2025. I contributed to an app, WISE (WIldfire Safe Egress), which focused on optimizing and predicting the evacuation of a community/area given a wildfire situation. By using Bayesian Statistics, WISE uses data on population demographics, densities, and road network capacities, bottlenecks, etc. to predict how long or how many people will be able to evacuate for a wildfire in a given time. It can be used by city planners to rethink how they build new roads or where to allocate funds for rebuilding, or by situation unit leaders on wildfire teams to optimize getting civilians to safety.\nWithin the team, I used my data science knowledge to do various case studies on wildfires in the past, presenting data and plots of historic trends. I also created many analyses of different, rival software and novel programs in order to better our application. Most notably, I created a RAG process that would extract keywords from research papers relating to wildfire and evacuation to identify different variables and their importance. This was used to improve the evacuation model used to decide when people leave in the application, strengthening the app’s usability and accuracy. It was also able to significantly speed up the synthesis of research papers by another coworker, who was improving the evacuation model and needed a way to identify which factors most influence a person’s evacuation speed, roadblocks, etc.\nThis work once again reinforces my desire to bring more good to humanity through data science. By using my knowledge to improve a wildfire evacuation app, I know that I am contributing to a better society and could potentially help save lives. I truly believe that it is our responsibility to uplift and improve the lives of others, so being apart of this research is very important to me.\nYou can read more about WISE here."
   }
 ]

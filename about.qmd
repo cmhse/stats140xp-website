@@ -1,24 +1,27 @@
 ---
-title: "Research and Projects"
+title: "Work and Research Experience"
 ---
+
+# Work Experience
+
+## First Citizens Bank
+
+community reinvestment and data reporting
+
+## Italian National Baseball Team (World Baseball Classic)
+
+modeling
 
 # Research
 
-In my time at UCLA, I was able to work in the B John Garrick Institute for Risk Sciences as a Research Intern. I contributed to an app, WISE (**WI**ldfire **S**afe **E**gress), which focused on optimizing and predicting the evacuation of a community/area given a wildfire situation. By using Bayesian Statistics, WISE uses data on population demographics, densities, and road network capacities, bottlenecks, etc. to predict how long or how many people will be able to evacuate for a wildfire in a given time. It can be used by city planners to rethink how they build new roads or where to allocate funds for rebuilding, or by situation unit leaders on wildfire teams to optimize getting civilians to safety. 
+## WISE
+
+In my time at UCLA, I was able to work in the B John Garrick Institute for Risk Sciences as a Research Intern. I was an intern from April 2024 to July 2025. I contributed to an app, WISE (**WI**ldfire **S**afe **E**gress), which focused on optimizing and predicting the evacuation of a community/area given a wildfire situation. By using Bayesian Statistics, WISE uses data on population demographics, densities, and road network capacities, bottlenecks, etc. to predict how long or how many people will be able to evacuate for a wildfire in a given time. It can be used by city planners to rethink how they build new roads or where to allocate funds for rebuilding, or by situation unit leaders on wildfire teams to optimize getting civilians to safety.
+
+Within the team, I used my data science knowledge to do various case studies on wildfires in the past, presenting data and plots of historic trends. I also created many analyses of different, rival software and novel programs in order to better our application. Most notably, I created a RAG process that would extract keywords from research papers relating to wildfire and evacuation to identify different variables and their importance. This was used to improve the evacuation model used to decide when people leave in the application, strengthening the app's usability and accuracy. It was also able to significantly speed up the synthesis of research papers by another coworker, who was improving the evacuation model and needed a way to identify which factors most influence a person's evacuation speed, roadblocks, etc.
+
+This work once again reinforces my desire to bring more good to humanity through data science. By using my knowledge to improve a wildfire evacuation app, I know that I am contributing to a better society and could potentially help save lives. I truly believe that it is our responsibility to uplift and improve the lives of others, so being apart of this research is very important to me.
 
 You can read more about WISE [here](https://www.risksciences.ucla.edu/crse-software-blog/2023/11/13/wise).
 
-# Projects
 
-I have also worked on various projects while in tenure at UCLA. Through my membership in the Data Science Union at UCLA, I have been a part of various different internal projects with other data-oriented students. A few of these are showcased below:
-
-$$ $$
-
-One particularly fun project, **Syncadia**, attempts to solve an age-old problem: "which song do I use in my Instagram story to best fit the picture's vibe?" By extracting the sentiment of an uploaded image and comparing it to a vast library of songs, you can find the song that has the most similarity in vibe to that of the image. By applying sentiment analysis to both the library of songs and the image, we can calculate the mapped distance of the image's emotion to that of all the songs and return the closest one. With this, the next time that you want to post on Instagram, you know that the song you want to accompany your post will be exactly the mood of the image.
-
-The GitHub repo can be found [here](https://github.com/isblender/Syncadia/tree/main).
-
-$$ $$
-
-
-Another interesting project I've worked on in DSU is a chatbot that is able to answer most questions about our organization. By parsing through our club's website, curriculum teaching videos, and internal documents, you are able to ask it various prompts relating to the club with a correct answer coming back at you. In this project, I learned a lot about Retrieval Augmented Generation, or RAG, and engineered a retrieval pipeline with LangChain to convert our website into vector embeddings that can be ranked in similarity to a query. With this, combined with an LLM to contextualize answers, we were able to create a working app that can answer questions like "Whose birthday is next in the club?", "What are the main components of DSU?", "How do I stand out in the application process?", and much more.

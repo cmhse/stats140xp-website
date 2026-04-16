@@ -1,0 +1,38 @@
+---
+title: "Projects"
+format: html
+---
+
+I have worked on various projects while in tenure at UCLA. Through my membership in the Data Science Union at UCLA, I have been a part of various different internal projects with other data-oriented students. A few of these are showcased below:
+
+$$ $$
+
+## Wildfire Spread Prediction
+
+My personal favorite project has been my Wildfire Spread Prediction project. My dad has worked in the fire service for my entire life as a fire captain, chief, and situation unit leader on major wildfires. He has traveled to over 10 states to fight some of the largest fires in US history, some as close as 15 minutes from my house (Thomas Fire of 2017). I am incredibly inspired by his call to action and impact he has made on countless lives, and although I am nowhere near a firefighter, I wanted to use my data science knowledge to cross into his domain. I got into contact with some of his coworkers, including a GIS engineer on his national team, where I was able to discuss my project and ask for any advice. Through meeting with him, I sourced a national wildfire IRWIN dataset that he uses on incidents, and created a linear model to predict the final size of a wildfire. Given conditions such as brush size, temperature, humidity, size of fire in discovery, fire behavior, fuel models, fire cause, and wind, I created a model with a MSE of 2.8 and correlation coefficient of 0.48. Although the correlation is not as high as I wanted at the time, I had issues with the data including over 60% of the values being NA and not having as much knowledge of data science at the time. I plan on revisiting this project and seeing if I can improve the model, knowing what I do now about machine learning. 
+
+Overall, this project was extremely important to me because it represents my innate desire to improve the quality of life around me. I am inspired to make the world a better place, and although I cannot do that physically like a firefighter, I love using my statistical knowledge to create potentially useful tools for good. Beyond that, this project was a great bonding experience with my dad, as we both got to geek out about wildfires and maps.
+
+$$ $$
+
+## Syncadia
+
+One particularly fun project, **Syncadia**, attempts to solve an age-old problem: "which song do I use in my Instagram story to best fit the picture's vibe?" By extracting the sentiment of an uploaded image and comparing it to a vast library of songs, you can find the song that has the most similarity in vibe to that of the image. By applying sentiment analysis to both the library of songs and the image, we can calculate the mapped distance of the image's emotion to that of all the songs and return the closest one. With this, the next time that you want to post on Instagram, you know that the song you want to accompany your post will be exactly the mood of the image.
+
+The GitHub repo can be found [here](https://github.com/isblender/Syncadia/tree/main).
+
+$$ $$
+
+## DSU Chatbot
+
+Another interesting project I've worked on in DSU is a chatbot that is able to answer most questions about our organization. By parsing through our club's website, curriculum teaching videos, and internal documents, you are able to ask it various prompts relating to the club with a correct answer coming back at you. In this project, I learned a lot about Retrieval Augmented Generation, or RAG, and engineered a retrieval pipeline with LangChain to convert our website into vector embeddings that can be ranked in similarity to a query. With this, combined with an LLM to contextualize answers, we were able to create a working app that can answer questions like "Whose birthday is next in the club?", "What are the main components of DSU?", "How do I stand out in the application process?", and much more. I presented this in front of 70+ people at a project showcase for the club, where I was able to demo the Streamlit site for the chatbot and ask the audience questions they had about the club.
+
+$$ $$
+
+## Resume ATS
+
+Continuing, a project I found very fun to do with DSU was a custom Resume ATS screener. With this, we took a huge "stack" of resumes in .pdf form and created an ATS to automatically accept/reject resumes. My contribution to the project revolved around creating different metrics and features to gauge an applicant's qualifications. I extracted the total tenure of all work experiences and created fields to judge an applicant based off of their amount of experience in different fields. I also conducted data analysis on the distribution of work tenure to identify patterns within the numbers. This feature was combined with others from my teammates, including a marker for university ranking, NLP sentiment analysis of keywords and job titles, and more. From this, we were able to create a KNN model to group high-achieving resumes together and accept the best resumes while rejecting the worst. We presented this in front of 50+ people and provided a demo where, unfortunately, my teammate's resume did not pass the scan. 
+
+$$ $$
+
+Although I have done various other data-driven projects in the past, these are some of the most interesting or personally-relevant projects to me that I want to share.

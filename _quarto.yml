@@ -10,7 +10,9 @@ website:
       - href: index.qmd
         text: About
       - href: about.qmd
-        text: Research & Projects
+        text: Research & Work Experience
+      - href: projects.qmd
+        text: Projects
   page-footer:
     background: "#0d1117"
     center: "© 2025 Charlie Hoose"
