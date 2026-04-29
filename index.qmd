@@ -24,7 +24,7 @@ In my free time, I enjoy playing racket sports like tennis, pickleball, and ping
 
 Professionally, I have experience with Data Science, Data Analytics, Business Analytics, and Machine Learning. I am particularly interested in data modeling and trying to make sense of the world around me. Even more, I find passion in using data science to try to make the world a better place, which led me to certain projects and experiences with the main goal of improving the quality of human life. Whether it be via wildfire prediction and evacuation or community reinvestment, I find it important to use my skills to benefit the broader public.
 
-You can view my resume [here](/CharlieHooseResume.pdf).
+You can view my resume [here](/CharlieHoose_Resume.pdf).
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
