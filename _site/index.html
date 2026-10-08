@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Charlie Hoose</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -35,10 +41,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8c99e17a48ecb98e2f619923dbb64000.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-3e11dfdfaf642a82cce08c28d35c3b94.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-da0a3d8f2e6fbd6e8e73843af8a85892.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-90a2a3549492ef152217922a898d4ada.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -142,10 +148,11 @@ ul.task-list li input[type="checkbox"] {
   <div class="about-contents"><main class="content column-page" id="quarto-document-content">
 <section id="about" class="level2">
 <h2 data-anchor-id="about">About</h2>
-<p>Hello! My name is Charlie Hoose and I am a fourth year Statistics and Data Science major with a Data Science Engineering minor at UCLA. I am from the Santa Ynez Valley in California (right above Santa Barbara) and have grown up there all my life.</p>
-<p>In my free time, I enjoy playing racket sports like tennis, pickleball, and ping pong, as well as working out and going on hikes in nature. I am a big fan of music of most genres, and often go to concerts and add to my vinyl collection. Moreover, I am a big foodie, and you can find me checking out new or interesting restaurants across LA. What I eat I try to recreate in the kitchen, too, as I have a passion for cooking which stemmed from experiences with my father and working in a professional kitchen in high school. If any of these hobbies or interests are up your alley, feel free to reach out!</p>
-<p>Professionally, I have experience with Data Science, Data Analytics, Business Analytics, and Machine Learning. I am particularly interested in data modeling and trying to make sense of the world around me. Even more, I find passion in using data science to try to make the world a better place, which led me to certain projects and experiences with the main goal of improving the quality of human life. Whether it be via wildfire prediction and evacuation or community reinvestment, I find it important to use my skills to benefit the broader public.</p>
-<p>You can view my resume <a href="./CharlieHooseResume.pdf">here</a>.</p>
+<p>Hello! My name is Charlie Hoose and I recent graduate from UCLA studying Statistics and Data Science with a minor in Data Science Engineering. I was born and raised in the Santa Ynez Valley in California (right above Santa Barbara), and now live in San Jose.</p>
+<p>In my free time, I enjoy playing racket sports like tennis, pickleball, and ping pong, as well as working out and going on hikes in nature. I am a big fan of music of most genres, and often go to concerts and add to my vinyl collection.</p>
+<p>Moreover, I am a big foodie, and you can find me checking out new or interesting restaurants across LA or SF. Beyond simply consuming, I love to be in the kitchen, and cook often with friends and family. My passion for cooking stemmed from experiences with my father and working in a professional kitchen in high school. If any of these hobbies or interests are up your alley, feel free to reach out!</p>
+<p>Professionally, I have experience with Data Science, Data Analytics, Business Analytics, and Machine Learning. I am particularly interested in data modeling and trying to make sense of the world around me, and have recently found that intersecting with the financial world. Even more, I find passion in using data science to try to make the world a better place, which led me to certain projects and experiences with the main goal of improving the quality of human life. Whether it be via wildfire prediction and evacuation or community reinvestment, I find it important to use my skills to benefit the broader public.</p>
+<p>You can view my resume <a href="./CharlieHooseResume1026.pdf">here</a>.</p>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var title = document.querySelector('h1.title');
@@ -202,13 +209,14 @@ document.addEventListener("DOMContentLoaded", function() {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
