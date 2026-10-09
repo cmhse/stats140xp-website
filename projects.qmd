@@ -3,9 +3,16 @@ title: "Projects"
 format: html
 ---
 
-I have worked on various projects while in tenure at UCLA. Through my membership in the Data Science Union at UCLA, I have been a part of various different internal projects with other data-oriented students. A few of these are showcased below:
+I have worked on various projects while in tenure at UCLA and beyond. Through my membership in the Data Science Union at UCLA, I have been a part of various different internal projects with other data-oriented students. A few of these are showcased below:
 
 $$ $$
+
+## FinQuery: Finance Questions to Data Outputs
+
+FinQuery is a natural-language query tool designed to convert basic financial questions into runnable SQL queries that output both the necessary data table and charts with commentary. It is built on a synthetic FP&A dataset with charts for accounts, cost centers, and budget/forecast/actual versions, designed to be what a real financial analyst would use. You can ask basic questions like "what's our Q3 Opex variance by cost center?" and get back validated SQL, charts, and analysis to answer the question. It is hosted on Streamlit, and uses Claude's tool-calling API with a schema-grounded prompt, finance metrics layer, and self-correcting retry loop that revises failed queries using execution error feedback. The goal of this project was to reduce the time spent creating manual queries to extract information from financial data. Instead, if you have a question, you simply just need to ask FinQuery, and it will create a correct SQL query, run it, and output it, saving valuable time so that you can focus on the true analysis of your data.
+
+The GitHub repo can be found [here](https://github.com/cmhse/FinQuery)
+
 
 ## Wildfire Spread Prediction
 
@@ -43,9 +50,7 @@ $$ $$
 
 ## DataBase Science Union (DBSU)
 
-The title is a play off DSU (Data Science Union), the club that I am in that supports this project. For this, we are creating our own database from scratch, including creating the logic for a parser, functions like SELECT, FROM, WHERE, JOINs, INSERTs, etc., and connections between databases.
-
-This project is still in progress.
+The title is a play off DSU (Data Science Union), the club that I am in that supports this project. For this, we created our own database from scratch, including creating the logic for a parser, functions like SELECT, FROM, WHERE, JOINs, INSERTs, etc., and connections between databases. By making our own parser, AST tree, precedence rules, lexer, executor, and evaluator, I was able to gain a much deeper understanding of how SQL works under the hood. Seeing the path that the computer makes to extract, filter, and then show data depending on the query strengthened my ability to use SQL and ensure that I am using it in an efficient and fast way. We ultimately presented the project as a query-able database and showed off a few examples of what queries look like, as well as creating an interactive "map" that shows each step in the process of executing a query.
 
 $$ $$
 
