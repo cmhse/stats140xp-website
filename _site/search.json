@@ -11,7 +11,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "I have worked on various projects while in tenure at UCLA and beyond. Through my membership in the Data Science Union at UCLA, I have been a part of various different internal projects with other data-oriented students. A few of these are showcased below:\n\\[ \\]"
+    "text": "I have worked on various projects while in tenure at UCLA and beyond. Through my membership in the Data Science Union at UCLA, I have been a part of various different internal projects with other data-oriented students. A few of these are showcased below:"
   },
   {
     "objectID": "index.html",
@@ -144,6 +144,6 @@
     "href": "projects.html#finquery-finance-questions-to-data-outputs",
     "title": "Projects",
     "section": "FinQuery: Finance Questions to Data Outputs",
-    "text": "FinQuery: Finance Questions to Data Outputs\nFinQuery is a natural-language query tool designed to convert basic financial questions into runnable SQL queries that output both the necessary data table and charts with commentary. It is built on a synthetic FP&A dataset with charts for accounts, cost centers, and budget/forecast/actual versions, designed to be what a real financial analyst would use. You can ask basic questions like “what’s our Q3 Opex variance by cost center?” and get back validated SQL, charts, and analysis to answer the question. It is hosted on Streamlit, and uses Claude’s tool-calling API with a schema-grounded prompt, finance metrics layer, and self-correcting retry loop that revises failed queries using execution error feedback. The goal of this project was to reduce the time spent creating manual queries to extract information from financial data. Instead, if you have a question, you simply just need to ask FinQuery, and it will create a correct SQL query, run it, and output it, saving valuable time so that you can focus on the true analysis of your data.\nThe GitHub repo can be found here"
+    "text": "FinQuery: Finance Questions to Data Outputs\nFinQuery is a natural-language query tool designed to convert basic financial questions into runnable SQL queries that output both the necessary data table and charts with commentary. It is built on a synthetic FP&A dataset with charts for accounts, cost centers, and budget/forecast/actual versions, designed to be what a real financial analyst would use. You can ask basic questions like “what’s our Q3 Opex variance by cost center?” and get back validated SQL, charts, and analysis to answer the question. It is hosted on Streamlit, and uses Claude’s tool-calling API with a schema-grounded prompt, finance metrics layer, and self-correcting retry loop that revises failed queries using execution error feedback. The goal of this project was to reduce the time spent creating manual queries to extract information from financial data. Instead, if you have a question, you simply just need to ask FinQuery, and it will create a correct SQL query, run it, and output it, saving valuable time so that you can focus on the true analysis of your data.\nThe GitHub repo can be found here\n\\[ \\]"
   }
 ]
